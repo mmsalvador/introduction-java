@@ -6,6 +6,10 @@ public class MyClass {
 
 
     public static void main(String[] args){
-        System.out.print ("Hello, World!");
+        String firstName = "Matheus";
+        String lastName = "Salvador";
+
+        String fullName = insertName (firstName,lastName);
+        System.out.println(fullName);
     }
 }
