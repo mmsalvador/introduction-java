@@ -5,6 +5,9 @@ public class MyTV {
     int volume = 1;
     int channels = 1;
 
+    /**
+     * Este método serve para ligar a tv
+     */
     public void ligar(){
         onOff = true;
         System.out.println("TV LIGADA");
